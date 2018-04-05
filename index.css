@@ -78,14 +78,12 @@ body {
     height: 25%;
     width: 25%;
     padding-top: 5vw;
-    //border: 1px solid #35eea4;
     border-radius: 5px;
-    //box-shadow: 0px 3px 20px 2px #2c2c2c;
 }
 #interests_section{
   background: url(images/bg_images//area_of_i.gif)  no-repeat fixed center;
   background-size:cover;
-  padding-top: 100px;
+  padding-top: 50px;
   border: 1px solid #2c2c2c;
 
 }
@@ -96,8 +94,6 @@ body {
   font-size: 3rem;
   font-weight:bold;
   text-align: center;
-  //margin: 0 1vw 1vw 15vw;
-  //padding-top:8vh;
   margin: 3vh 2vw;
 }
 .interests_description {
@@ -105,20 +101,14 @@ body {
   flex-wrap: wrap;
   padding: 2vh 8vw 4vh;
   justify-content: space-between;
-  //margin: 2vh;
-  padding: 9.5vh;
-
+  padding: 15vh;
 }
 .interests_description_item{
   display: flex;
   flex-wrap: wrap;
-//  height: 60%;
-//  width: 60%;
   padding: 2vh 2vw;
-    height: 150px;
-    width: 150px;
-    //height: 70%;
-    //width: 70%;
+  height: 150px;
+  width: 150px;
 }
 #experience_section{
   background: url(images/bg_images//bg.jpg)  fixed center ;
@@ -228,10 +218,44 @@ body {
       .aboutme_description{
         height: 10vw;
         font-size: .7rem;
-      //  margin: 9vh;
         font-weight:500;
         line-height: 1.2;
         padding-bottom: 40vh;
+      }
+      .description_heading{
+        font-size: 1.5rem;
+        padding-top: 2vh;
+      }
+      .interests_description{
+        padding: 2vh 8vw 4vh;
+        justify-content: space-between;
+      }
+      .interests_description_item{
+        display:flex;
+        weight: 40%;
+        width: 40%;
+      }
+      .experience_description{
+      font-size:.8rem;
+      }
+      .projects_description{
+        font-size: .8rem;
+      }
+      .description_heading1{
+        font-size: 2rem;
+        padding-top: 8vw;
+      }
+      .contact_details_container .contact_description{
+        font-size: 1rem;
+        line-height: 1.5;
+        //padding-top: 8vw;
+      }
+      .icon{
+        text-align: center;
+      }
+      .icon-group{
+        width: 20%
+        height: 10%;
       }
 }
 
