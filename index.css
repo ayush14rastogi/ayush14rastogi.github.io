@@ -206,6 +206,7 @@ body {
       font-size: .8rem;
       display: flex;
       flex-wrap: wrap;
+
     }
     .intro_section{
       font-size: 1rem;
@@ -231,12 +232,15 @@ body {
         justify-content: space-between;
       }
       .interests_description_item{
-        display:flex;
+        display: flex;
+        padding-left: 25vw;
         weight: 40%;
         width: 40%;
       }
       .experience_description{
       font-size:.8rem;
+      padding: 10vh;
+
       }
       .projects_description{
         font-size: .8rem;
@@ -255,9 +259,6 @@ body {
       }
       .icon-group{
         width: 20%
-        height: 10%;
+        height:10%;
       }
 }
-
-@media screen and  (min-width: 768px) {
-            }
