@@ -197,10 +197,13 @@ body {
 }
 /*#mediaqueries starts */
 
-@media screen and  (min-width: 768px) {
-        }
-
 @media screen and  (min-width: 360px) and (max-width: 768px) {
+
+  #main {
+      background: url(images/bg_images//intro.png) no-repeat fixed center;
+      background-size: cover;
+      border: 1% solid #2c2c2c;
+  }
     .navbar{
       height: 5vw;
       font-size: .8rem;
