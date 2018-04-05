@@ -207,10 +207,13 @@ body {
 }
 /*#mediaqueries starts */
 
-@media screen {
+@media screen and  (min-width: 768px) {
+        }
+
+@media screen and  (min-width: 480px) and (max-width: 768px) {
     .navbar{
       height: 5vw;
-      font-size: .3rem;
+      font-size: .5rem;
       display: flex;
       flex-wrap: wrap;
     }
@@ -225,3 +228,5 @@ body {
       display: flex;
       }
     }
+@media screen and  (min-width: 768px) {
+            }
