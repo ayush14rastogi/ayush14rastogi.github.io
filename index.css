@@ -213,7 +213,7 @@ body {
 @media screen and  (min-width: 480px) and (max-width: 768px) {
     .navbar{
       height: 5vw;
-      font-size: 1rem;
+      font-size: .8rem;
       display: flex;
       flex-wrap: wrap;
     }
