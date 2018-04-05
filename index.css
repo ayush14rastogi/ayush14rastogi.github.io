@@ -207,7 +207,7 @@ body {
 }
 /*#mediaqueries starts */
 
-@media screen and  (max-width: 456px) {
+@media screen {
     .navbar{
       height: 5vw;
       font-size: .3rem;
