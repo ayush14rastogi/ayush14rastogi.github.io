@@ -218,11 +218,12 @@ body {
       flex-wrap: wrap;
     }
     .intro_section{
-      padding: 10%;
+      padding: 10;
       font-size: 1rem;
       display: flex;
     }
     .sub-heading{
+      margin: 0;
       padding: 10%;
       font-size: .5rem;
       display: flex;
