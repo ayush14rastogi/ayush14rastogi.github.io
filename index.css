@@ -185,18 +185,6 @@ body {
   text-decoration:none;
   color: white;
 }
-@media only screen and (max-width: 725) {
-    .interests_description {
-        flex-direction: column;
-    }
-    .interests_description_item {
-        width: 60vw;
-    }
-    .header_section
-    {
-      flex-direction: column;
-    }
-}
 .more_details{
   text-align: center;
     margin-top: 2vh;
@@ -217,3 +205,23 @@ body {
     font-size: 1.6rem;
 
 }
+/*#mediaqueries starts */
+
+@media screen and  (max-width: 456px) {
+    .navbar{
+      height: 5vw;
+      font-size: .3rem;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .intro_section{
+      padding: 10%;
+      font-size: 1rem;
+      display: flex;
+    }
+    .sub-heading{
+      padding: 10%;
+      font-size: .5rem;
+      display: flex;
+      }
+    }
