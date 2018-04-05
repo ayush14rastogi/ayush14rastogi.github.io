@@ -220,7 +220,7 @@ body {
     .intro_section{
       padding: 10;
       font-size: 1rem;
-      display: flex;
+      //display: flex;
     }
     .sub-heading{
       margin: 0;
